@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +10,100 @@
 <body>
 
     <div id="cabecalho">
-        <h1>Notícias</h1> <!--Título da página-->
+        <h1>Formulário</h1> <!--Título da página-->
     </div>
 
-    <div id="conteudo">
-        <div id="navbar">
-            <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./sobre.html">Sobre</a></li>
-            <li><a href="./contato.html">Contato</a></li>
-            <li><a href="./saibamais.html">Saiba Mais</a></li>
-            </ul>
-        </div>
-    </div>
-    
+    <div id="container-menu">
+        <form id="formulario" action="">
 
+            <div class="meiatela spacing">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="meiatela">
+                <label for="nome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+
+            <div class="telainteira">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite o CPF">
+            </div>
+
+            <div class="meiatela spacing">
+                <label for="rg">RG</label>
+                <input type="text" name="rg" id="rg" placeholder="Digite o RG">
+            </div>
+
+            <div class="telainteira">
+                <label for="rua">Endereço</label>
+                <input type="text" name="rua" id="rua" placeholder="Digite o nome da rua">
+            </div>
+
+            <div class="telainteira">
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" id="complemento" placeholder="Digite o complemento">
+            </div>
+
+            <div class="meiatela spacing">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade">
+            </div>
+
+            <div class="meiatela">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado" placeholder="Digite o estado">
+            </div>
+
+            <div class="meiatela spacing">
+                <label for="telcelular">Telefone Celular</label>
+                <input type="text" name="telcelular" id="telcelular" placeholder="Digite número telefone celular">
+            </div>
+
+            <div class="meiatela">
+                <label for="telfixo">Telefone Fixo</label>
+                <input type="text" name="telfixo" id="telfixo" placeholder="Digite número telefone fixo">
+            </div>
+
+            <div class="telainteira">
+                <label for="email">E-Mail</label>
+                <input type="text" name="email" id="email" placeholder="Digite o E-Mail">
+            </div>
+
+            <div class="meiatela spacing">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite uma Senha">
+            </div>
+
+            <div class="meiatela">
+                <label for="confirmesenha">Confirme sua Senha</label>
+                <input type="password" name="confirmesenha" id="confirmesenha" placeholder="Confirme sua Senha">
+            </div>
+            
+            <div class="meiatela">
+                <label for="rg">Selecione o sexo</label>    
+                <input type="radio" id="masculino" name="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="feminino" name="feminino" value="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="termo" id="termo">
+                <label for="termo" id="termo-label">Eu li os <a href="#"> termos de uso</a></label>
+            </div>
+
+            <div id="telainteira">
+                <input id="btn-submit" type="submit" value="Registrar" >
+            </div>
+
+        </form>
+
+    </div>
+   
+<p class="error-validation template"></p>
+<script src="scripts.js"></script>
 
 </body>
 </html>
