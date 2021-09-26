@@ -13,10 +13,25 @@ input, label {
     outline: orange;
 }
 
-select{
+select {
     display: block;
-    width: 50%;
+    height: 45%;
     margin-bottom: 20px;
+    font-size: .8rem;
+    border-radius: 10px;
+}
+
+option {
+    font-size: .8rem;
+}
+
+#state {
+    width: 100%;
+}
+
+#sexo {
+    width: 48%;
+    margin-bottom: 30px;
 }
 
 a {
@@ -24,12 +39,19 @@ a {
 }
 
 #cabecalho{
-    width: auto;
-    background-color: rgb(240,240,240);
+    width: 700px;
+    background-color: rgb(240,240,240); 
     text-align: center;
     border: black 1px solid;
     border-radius: 10px;
-    margin-bottom: 25px
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecalho h2{
+    text-align: center;
+    font-size: 1.6rem; /* tamanho da fonte em relação a fonte principal*/
 }
 
 body {
@@ -90,6 +112,7 @@ input{
     padding: 10px;
     font-size: .8rem;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 input:focus {
