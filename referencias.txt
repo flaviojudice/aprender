@@ -1,7 +1,8 @@
 Foi desenvolvido um site para cadastro de pessoas cuja as características são campos formatados para inserção de dados e alguns
 campos possuírem validações quanto ao seu preenchimento.
 
-Foram desenvolvidas algumas validações em JavaScript no que diz respeito ao seu preenchimento obrigatório.
+
+Foram desenvolvidas algumas validações em JavaScript no que diz respeito ao preenchimento obrigatório dos campos.
 
 
 Foi utlizado como base para desenvolvimento do layout do site um vídeo do youtube.
